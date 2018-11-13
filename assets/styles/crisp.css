@@ -237,6 +237,27 @@ footer a:hover {
 	color:#444;
 	text-decoration: none;
 }
+
+.kg-width-wide {
+	width: 100%;
+}
+
+.kg-width-full {
+	width: 100%;
+}
+
+.kg-gallery-container {
+
+}
+
+.kg-gallery-row {
+	margin: 0 25px;
+}
+
+.kg-gallery-image {
+
+}
+
 /* Large Screens */
 @media only screen and (min-width: 1281px) {
 	html, body {
