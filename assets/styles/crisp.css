@@ -6,9 +6,9 @@
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial;
 	font-weight: 300;
-    background: #fff;
+	background: #fff;
 	color: #444;
 }
 html {
@@ -26,6 +26,7 @@ header {
 	left: 0;
 	height:100%;
 	width:13.5em;
+	background: rgb(245, 246, 245);
 }
 #content {
 	display: block;
@@ -48,26 +49,28 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Bree Serif", serif;
-	font-weight: 400 !important;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-weight: 700 !important;
 }
 h1 {
 	font-size: 2.5em;
 	line-height: 1.1em;
 	margin-top: 0.6em;
 	margin-bottom: 0.6em;
+	letter-spacing: -2px;
 }
 h2 {
 	font-size:1.9em;
 	line-height: 1.2em;
 	margin-top: 0.7em;
-	margin-bottom: 0.7em;	
+	margin-bottom: 0.7em;
+	letter-spacing: -1px;
 }
 h3 {
 	font-size:1.4em;
 	line-height: 1.3em;
 	margin-top: 0.8em;
-	margin-bottom: 0.8em;	
+	margin-bottom: 0.8em;
 }
 h4 {
 	font-size:1.3em;
@@ -85,7 +88,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #5cc265; /* Change Link Color */
+	color: #409ac5; /* Change Link Color */
 }
 a:hover {
 	text-decoration:underline;
@@ -99,7 +102,8 @@ strong {
 blockquote {
 	border-left: 0.4em solid #eee;
 	padding-left: 1.2em;
-	font-size: 1.3em;
+	font-size: 1.2em;
+	color: rgb(136, 136, 136);
 }
 hr{
  	border: 0;
@@ -187,6 +191,10 @@ h3.post-title {
 .post-title .feature-star {
 	font-size: 0.9em;
 }
+.post img {
+	background: rgb(245, 246, 245);
+	padding: 10px;
+}
 .separator, .taglist, .feature-star {
 	color: #ccc;
 }
@@ -196,9 +204,9 @@ h3.post-title {
 	display: inline-block;   
 	line-height: 1.5em;
 	padding:0.3em 0.6em 0.3em 0.6em;
-	vertical-align:20%;  
-	font-size:0.5em;
-	font-family: "Open Sans", sans-serif;
+	vertical-align:20%;
+	font-size:0.6em;
+	font-family: "Helvetica Neue", Helvetica, Arial;
 	font-weight: 700 !important;
 	text-transform:uppercase;
 	letter-spacing:0.05em;
@@ -212,7 +220,7 @@ h3.post-title {
 	padding:0.5em;
 }
 #comments {
-	margin-top: 1em;
+	margin-top: 0.15em;
 	padding-bottom: 0.2em;
 	border-bottom: 1px solid #eee;
 }
@@ -224,7 +232,7 @@ footer a {
 	font-weight:300;
 	color:#888;
 	text-decoration: underline;
-} 
+}
 footer a:hover {
 	color:#444;
 	text-decoration: none;
@@ -232,11 +240,11 @@ footer a:hover {
 /* Large Screens */
 @media only screen and (min-width: 1281px) {
 	html, body {
-		font-size: 1.1em;
-	} 
+		font-size: 0.95em;
+	}
 }
 /* Small Screens */
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 800px) {
 	body {
 		padding:0;
 	}
@@ -259,7 +267,7 @@ footer a:hover {
 	}
 }
 /* Tiny Screens */
-@media only screen and (max-width: 320px) { 
+@media only screen and (max-width: 320px) {
 	header {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}
@@ -270,6 +278,6 @@ footer a:hover {
 		padding: 0 1.5em 1.2em 1.5em;
 	}
 	ul, ol {
-		margin-left: 2em; 
+		margin-left: 2em;
 	}
 }
