@@ -260,7 +260,8 @@ footer a:hover {
 
 .kg-image-card figcaption {
 	color: #959595;
-	font-size: 13px;
+	font-size: 0.8em;
+	text-align: center;
 }
 
 .kg-gallery-row {
