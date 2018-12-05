@@ -258,7 +258,14 @@ footer a:hover {
 	flex-direction: column;
 }
 
-.kg-image-card figcaption {
+.kg-embed-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+figcaption {
 	color: #959595;
 	font-size: 0.8em;
 	text-align: center;
