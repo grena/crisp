@@ -42,6 +42,7 @@ article {
 	border-bottom: 0.1em #eee solid;
 	padding-bottom: 1.7em;
 	max-width: 56em;
+	font-size: 1.1em;
 }
 p, hr, h4, h5, h6 {
 	margin-top: 0.9em;
@@ -248,6 +249,18 @@ footer a:hover {
 
 .kg-gallery-container {
 
+}
+
+.kg-image-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.kg-image-card figcaption {
+	color: #959595;
+	font-size: 13px;
 }
 
 .kg-gallery-row {
